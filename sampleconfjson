@@ -1,55 +1,57 @@
 {
-               "appconfig": {
-                              "deployinfo": {
-                                             "dockerhomepath": "str1234",
-                                             "targetartifactpath": "str1234",
-                                             "externaljars": {
-                                                            "externaljar": [
-                                                                           "str12341",
-                                                                           "str12342",
-                                                                           "str12343"
-                                                            ]
-                                             },
-                                             "jenkinsconfigids": {
-                                                            "jenkinsconfigid": [
-                                                                           "1str1234",
-                                                                           "2str1234",
-                                                                           "3str1234"
-                                                            ]
-                                             },
-                                             "certificates": {
-                                                            "srclocation": "str1234",
-                                                            "certnames": {
-                                                                           "certname": [
-                                                                                          "cer1str1234",
-                                                                                          "cer2str1234",
-                                                                                          "cer3str1234"
-                                                                           ]
-                                                            }
-                                             },
-                                             "sensitiveproperty": "str1234"
-                              },
-                              "prooftestsets": {
-                                             "environement": [
-                                                            "str1234",
-                                                            "env2"
-                                             ],
-                                             "testsetnames": [
-                                                            {
-                                                                           "testsetname": [
-                                                                                          "test1str1234",
-                                                                                          "test2str1234",
-                                                                                          "test3str1234"
-                                                                           ]
-                                                            },
-                                                            {
-                                                                           "testsetname": [
-                                                                                          "etest1str1234",
-                                                                                          "etest2str1234",
-                                                                                          "etest3str1234"
-                                                                           ]
-                                                            }
-                                             ]
-                              }
-               }
+	"appconfig": {
+		"deployinfo": {
+			"dockerhomepath": "str1234",
+			"targetartifactpath": "str1234",
+			"externaljars": {
+				"externaljar": [
+					"str12341",
+					"str12342",
+					"str12343"
+				]
+			},
+			"jenkinsconfigids": {
+				"jenkinsconfigid": [
+					"1str1234",
+					"2str1234",
+					"3str1234"
+				]
+			},
+			"certificates": {
+				"srclocation": "str1234",
+				"certnames": {
+					"certname": [
+						"cer1str1234",
+						"cer2str1234",
+						"cer3str1234"
+					]
+				}
+			},
+			"sensitiveproperty": "str1234"
+		},
+		"prooftestsets": {
+			"prooftestset": [
+				{
+					"environement": "str1234",
+					"testsetnames": {
+						"testsetname": [
+							"test1str1234",
+							"test2str1234",
+							"test3str1234"
+						]
+					}
+				},
+				{
+					"environement": "env2",
+					"testsetnames": {
+						"testsetname": [
+							"etest1str1234",
+							"etest2str1234",
+							"etest3str1234"
+						]
+					}
+				}
+			]
+		}
+	}
 }
